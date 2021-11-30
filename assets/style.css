@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 30px;
     font-weight: 700;
     color: #fff;
+    cursor: pointer;
 }
 
 .nav {
@@ -585,7 +586,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 
-.accordion__header:after {
+.option__header:after {
     content: "";
     display: block;
     width: 16px;
@@ -628,7 +629,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .reviews {
-    padding: 0 110px;
     position: relative;
 }
 
@@ -645,7 +645,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .reviews__text {
     margin-bottom: 15px;
-
     font-size: 24px;
     font-style: italic;
     font-weight: 300;
@@ -1507,15 +1506,10 @@ h1, h2, h3, h4, h5, h6 {
         padding: 0;
     }
 
-    .reviews__icon,
-    .reviews__photo {
-        display: none;
+   .slick-arrow {
+        top: 20%;
     }
-
-    .reviews__item {
-        margin: 0 40px;
-    }
-
+    
     .works__col {
         width: 100%;
     }
